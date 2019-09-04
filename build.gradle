@@ -11,3 +11,8 @@ dependencies {
     compile 'com.google.guava:guava:23.0'
     testCompile 'junit:junit:4.12'
 }
+
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+    termsOfServiceAgree = 'yes'
+}
